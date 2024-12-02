@@ -181,6 +181,7 @@ function myHandler(req,res){
     //res.end("hello from the server");
 }
 
+//const myServer = http.createServer(myHandler);
 const myServer = http.createServer(app);
 
 
